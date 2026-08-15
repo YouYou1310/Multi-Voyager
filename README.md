@@ -6,7 +6,7 @@
 [[PDF]](https://voyager.minedojo.org/assets/documents/voyager.pdf)
 [[ツイート]](https://twitter.com/DrJimFan/status/1662115266933972993?s=20)
 
-[![Python Version](https://img.shields.io/badge/Python-3.9-blue.svg)](https://github.com/MineDojo/Voyager)
+[![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)](https://github.com/MineDojo/Voyager)
 [![GitHub license](https://img.shields.io/github/license/MineDojo/Voyager)](https://github.com/MineDojo/Voyager/blob/main/LICENSE)
 ______________________________________________________________________
 
@@ -23,7 +23,7 @@ https://github.com/MineDojo/Voyager/assets/25460983/ce29f45b-43a5-4399-8fd8-5dd1
 このリポジトリでは、Voyager のコードを提供しています。このコードベースは [MIT ライセンス](LICENSE) のもとで公開されています。
 
 # インストール
-Voyager には Python ≥ 3.9 と Node.js ≥ 16.13.0 が必要です。Ubuntu 20.04、Windows 11、macOS でテスト済みです。以下の手順に従って Voyager をインストールしてください。
+Voyager には Python ≥ 3.10 と Node.js ≥ 22 が必要です。Ubuntu 20.04、Windows 11、macOS でテスト済みです。以下の手順に従って Voyager をインストールしてください。
 
 ## Python のインストール
 ```
@@ -57,7 +57,7 @@ Voyager のすべての機能をサポートするには、fabric mods をイン
 [Fabric Mods のインストール](installation/fabric_mods_install.md) の手順に従って mod をインストールしてください。
 
 # はじめに
-Voyager は言語モデルとして OpenAI の GPT-4 を使用します。Voyager を使用するには OpenAI API キーが必要です。[こちら](https://platform.openai.com/account/api-keys) から取得できます。
+Voyager は言語モデルとして OpenAI の GPT-4o 系モデル (既定: 各エージェントは gpt-4o / gpt-4o-mini) を使用します。Voyager を使用するには OpenAI API キーが必要です。[こちら](https://platform.openai.com/account/api-keys) から取得できます。
 
 インストールが完了したら、次のように Voyager を実行できます:
 ```python
